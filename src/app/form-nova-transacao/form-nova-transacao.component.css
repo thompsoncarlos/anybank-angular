@@ -80,7 +80,7 @@
 
 .input-wrapper::before {
   position: absolute;
-  content: "R$";
+  content: "€";
   top: 0.5938rem;
   left: 1rem;
 
