@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color-primary: #ffffff;
+  --text-color-secondary: #000000;
+  --grey-dark: #8b8b8b;
+  --grey-meddium: #a6a6a6;
+  --grey: #cbcbcb;
+  --blue-destaques: #04b4ff;
+  --blue-hover: #0f81b6;
+  --blue-pressed: #0a82b5;
+  --blue-gradient: linear-gradient(180deg, #fff 0%, #00163b 100%);
+  --blue-dark: #00163b;
+  --background-blue-light: #f2fbff;
+  --background-grey-light: #f5f5f5;
+}
+
+html,
+body {
+  font-family: 'Montserrat', serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  min-height: 100vh;
+  color: var(--text-color-primary);
+}
+
+button,
+select,
+input,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  border: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
