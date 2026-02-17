@@ -1,6 +1,6 @@
 .form-wrapper {
   background: var(--background-blue-light);
-  color: var(--text-color-secondary);
+  color: var(--black);
   border-radius: 0.5rem;
   padding: 2rem;
 
@@ -39,7 +39,7 @@
 
 .field {
   border-radius: 1rem;
-  border: 2px solid var(--text-color-secondary);
+  border: 2px solid var(--black);
   padding: 0.5rem 1rem;
   font-weight: 400;
   font-size: 1rem;
@@ -85,13 +85,13 @@
   top: 0.5938rem;
   left: 1rem;
 
-  color: var(--grey-dark);
+  color: var(--gray-dark);
   font-size: 1rem;
   font-weight: 400;
 }
 
 .input-wrapper:has(.input-transaction-value:not(:placeholder-shown))::before {
-  color: var(--text-color-secondary);
+  color: var(--black);
 }
 
 .input-transaction-value {
@@ -101,14 +101,14 @@
 }
 
 .input-transaction-value::placeholder {
-  color: var(--grey-dark);
+  color: var(--gray-dark);
   font-size: 1rem;
   font-weight: 400;
 }
 
 .button-confirm-transaction {
   border-radius: 1rem;
-  background: var(--blue-destaques);
+  background: var(--blue-hightlights);
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
@@ -127,5 +127,5 @@
 }
 
 .button-confirm-transaction:focus {
-  background: var(--blue-pressed);
+  background: var(--blue-hightlights);
 }

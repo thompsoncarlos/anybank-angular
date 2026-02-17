@@ -1,7 +1,6 @@
-import { DatePipe } from '@angular/common';
 import { Component } from '@angular/core';
-import { Welcome } from "./welcome/welcome";
-import { Account } from "./account/account";
+import { Welcome } from './welcome/welcome';
+import { Account } from './account/account';
 
 @Component({
   selector: 'app-banner',
@@ -9,7 +8,4 @@ import { Account } from "./account/account";
   templateUrl: './banner.html',
   styleUrl: './banner.css',
 })
-export class Banner {
-
-
-}
+export class Banner {}

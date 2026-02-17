@@ -1,7 +1,7 @@
 .banner {
   border-radius: 0.5rem;
   background: var(--blue-dark);
-  color: var(--text-color-primary);
+  color: var(--white);
   padding: 3rem 2.5rem;
 
   display: flex;
