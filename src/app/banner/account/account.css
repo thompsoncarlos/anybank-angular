@@ -12,7 +12,7 @@
 
 .divider {
   height: 0.125rem;
-  background: var(--text-color-primary);
+  background: var(--white);
 }
 
 .account-type {
