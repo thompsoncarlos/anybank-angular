@@ -1,7 +1,7 @@
 import { Component, signal } from '@angular/core';
 
 import { Banner } from './banner/banner';
-import { FormTransaction } from "./form-transaction/form-transaction";
+import { FormTransaction } from './form-transaction/form-transaction';
 
 @Component({
   selector: 'app-root',
@@ -11,4 +11,8 @@ import { FormTransaction } from "./form-transaction/form-transaction";
 })
 export class App {
   protected readonly title = signal('anybank-angular');
+
+  processTransaction() {
+    console.log('Transaction created!');
+  }
 }
